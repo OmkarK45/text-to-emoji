@@ -7,14 +7,13 @@ interface SiteConfig {
   links: {
     twitter: string
     github: string
-    docs: string
   }
 }
 
 export const siteConfig: SiteConfig = {
-  name: "Next.js",
+  name: "TextEmote",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Generate Discord NQN Text emoji from plain text",
   mainNav: [
     {
       title: "Home",
@@ -22,8 +21,7 @@ export const siteConfig: SiteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/omkar_k45",
+    github: "https://github.com/omkark45",
   },
 }
